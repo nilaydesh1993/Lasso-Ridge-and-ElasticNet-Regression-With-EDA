@@ -15,9 +15,9 @@ from sklearn.linear_model import Ridge
 from sklearn.linear_model import ElasticNet
 from sklearn.model_selection import train_test_split
 
-# ===================================================================================================
-# Business Problem :- Perform the Lasso and Ridge Regression to Predict sales Price of the computer.
-# ===================================================================================================
+# ================================================================================================================
+# Business Problem :- Performing the Lasso,Ridge and ElasticNet Regression to Predict sales Price of the computer.
+# ================================================================================================================
 
 computerdata = pd.read_csv("Computer_Data.csv",index_col = 0) 
 computerdata.shape
