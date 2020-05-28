@@ -16,9 +16,9 @@ from sklearn.linear_model import ElasticNet
 from sklearn.model_selection import train_test_split
 pd.set_option('display.max_columns', None)
 
-# ===================================================================================================
-# Business Problem - Perform the Lasso and Ridge Regression to Predict Price.
-# ===================================================================================================
+# ==============================================================================================================
+# Business Problem - Performing the Lasso, Ridge and ElasticNet Regression to Predict used Toyota Corolla Price.
+# ==============================================================================================================
 
 toyota = pd.read_csv('ToyotaCorolla.csv',encoding='latin1')
 toyota = toyota[["Price","Age_08_04","KM","HP","cc","Doors","Gears","Quarterly_Tax","Weight"]]
@@ -227,5 +227,5 @@ important_coff.plot(kind = 'barh',color = 'r')
 # Form Above Three models Losso and Ridge is giving us best result so we can be use either one of it for future prediction.
 
 
-                    # ---------------------------------------------------- #
+                         # ---------------------------------------------------- #
 
