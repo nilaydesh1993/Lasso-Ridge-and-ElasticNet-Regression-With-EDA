@@ -15,9 +15,9 @@ from sklearn.linear_model import Ridge
 from sklearn.linear_model import ElasticNet
 from sklearn.model_selection import train_test_split
 
-# ===================================================================================================
-# Business Problem - Performing the Lasso and Ridge Regression on 50_startups data to predict profit.
-# ===================================================================================================
+# ==================================================================================================================
+# Business Problem - Performing the Lasso, Ridge and ElasticNet Regression on 50_startups dataset to predict profit.
+# ==================================================================================================================
 
 startups = pd.read_csv('50_Startups.csv')
 startups.head()
